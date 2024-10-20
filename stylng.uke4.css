@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  font-size: 30px;
+}
+
+/* .img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+} */
+
+.planetholder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  height: fit-content;
+  border: 2px solid white;
+  background-color: black;
+}
+.planetholder img {
+  width: 100%;
+  height: auto;
+}
+
+.planetholder p {
+  color: white;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.nessusimg img {
+  padding: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.nessustext {
+  padding: 7px;
+}
+
+.moonimg img {
+  padding: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.moontext {
+  padding: 7px;
+}
+
+.mercuryimg img {
+  padding: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.mercurytext {
+  padding: 7px;
+}
+
+.europaimg img {
+  padding: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.europatext {
+  padding: 7px;
+}
+
+h1 {
+  color: white;
+}
